@@ -1,10 +1,12 @@
 # Cyber-talents
 
-my solutions for cyber talent CTFs it contain more than 8 branches of cyber sec.
+my solutions for cyber talent CTFs it contain more than 9 branches of cyber sec.
 
 ## General information
 
-#### Basic
+a simple questions to test your general knowledge in different fields of cyber security
+
+### Basic
 
 * Business Gathering
 * Founder
@@ -18,12 +20,22 @@ my solutions for cyber talent CTFs it contain more than 8 branches of cyber sec.
 * Crime scene
 * one click
 * Distribution
-* security model 
+* security model
 
 ### Easy
 
-* Hackers Gathering 
-* 
-## Web app
-
-* easy accses
+* Hackers Gathering
+* Greeks
+* Robot
+* Japanese Warrior
+* Modify Code
+* Crash
+* Scan
+* Capture
+* Precious Vulnerability
+* SCADA
+* htmlentities
+* Encoding
+* Reward
+* Hide me
+* Cash

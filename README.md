@@ -39,3 +39,15 @@ a simple questions to test your general knowledge in different fields of cyber s
 * Reward
 * Hide me
 * Cash
+
+## Digital Forensics
+
+### medium
+
+* Linuxcmd 101
+
+## Web Security
+
+### medium
+
+* The Restricted Sessions

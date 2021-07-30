@@ -11,7 +11,7 @@
 
 ### Step 1 : [download file](https://hubchallenges.s3-eu-west-1.amazonaws.com/Forensics/linux-chal.tar.gz)
 
-![Linuxcmd 101](images/Linuxcmd_101_1.png "Linuxcmd 101")
+![Linuxcmd 101](../images/Linuxcmd_101_1.png "Linuxcmd 101")
 
 we get a .tar.gz file it's used for distribution of software/media or backup purposes.
 
@@ -31,7 +31,7 @@ we will extract the data from ".tar.gz" using command :
 7z x linux-chal.tar
 ````
 
-![Linuxcmd 101](..\images\Linuxcmd_101_2.png "Linuxcmd 101")
+![Linuxcmd 101](../images/Linuxcmd_101_2.png "Linuxcmd 101")
 
 ---
 
@@ -46,7 +46,7 @@ so we opened terminal in this folder and type
 ls -a
 ```
 
-![Linuxcmd 101](..\images\Linuxcmd_101_3.png "Linuxcmd 101")
+![Linuxcmd 101](../images/Linuxcmd_101_3.png "Linuxcmd 101")
 
 to show all files in this directory we will get a hidden file called **pass.txt** we used this pass for unzip the file so we get the pass using ```cat``` command
 
@@ -84,7 +84,7 @@ we get the extraction passcode
 
 here we got ascii open
 
-![Linuxcmd 101](..\images\Linuxcmd_101_4.png "Linuxcmd 101")
+![Linuxcmd 101](../images/Linuxcmd_101_4.png "Linuxcmd 101")
 
 ---
 
@@ -102,7 +102,7 @@ we found that **f6** is an ascii file and contain a pass code
 
 here we got **size37** open
 
-![Linuxcmd 101](..\images\Linuxcmd_101_5.png "Linuxcmd 101")
+![Linuxcmd 101](../images/Linuxcmd_101_5.png "Linuxcmd 101")
 
 ---
 
@@ -110,7 +110,7 @@ here we got **size37** open
 
 change your directory into **size37** folder we will find a zip file and a bunch of files when we tried to read them we got a a readable strings seem like passwords of unzipping the file
 
-![Linuxcmd 101](..\images\Linuxcmd_101_6.png "Linuxcmd 101")
+![Linuxcmd 101](../images/Linuxcmd_101_6.png "Linuxcmd 101")
 
 * so we can try them one by one until **next.zip** got open by command
 
@@ -151,7 +151,7 @@ change your directory into **size37** folder we will find a zip file and a bunch
 ls -al
 ````
 
-![Linuxcmd 101](..\images\Linuxcmd_101_7.png "Linuxcmd 101")
+![Linuxcmd 101](../images/Linuxcmd_101_7.png "Linuxcmd 101")
 
 here we got file with size 37 the same folder name when we read it we find the passcode and unzip **next.zip**
 
@@ -189,7 +189,7 @@ change your directory into **NumberOne** folder we will find a zip file and a bi
 
 >infrastructure
 
-![Linuxcmd 101](..\images\Linuxcmd_101_8.png "Linuxcmd 101")
+![Linuxcmd 101](../images/Linuxcmd_101_8.png "Linuxcmd 101")
 
 ```bash
 7z x decodeme1.zip -p"infrastructure"
@@ -201,14 +201,14 @@ and we got **decodeme1** opened
 
 change your directory into **decodeme1** folder we will find a zip file and a pass file contain a string look like a passcode after we try it we got error
 
-![Linuxcmd 101](..\images\Linuxcmd_101_9.png "Linuxcmd 101")
+![Linuxcmd 101](../images/Linuxcmd_101_9.png "Linuxcmd 101")
 
 then we try to identify if it encoded and what is encoding type using [CyberChef](https://gchq.github.io/CyberChef/ "CyberChef") with magic block we got what we expected it's base 64 encoding !!
 
 and got the decoded pass
 > usemeaspassword
 
-![Linuxcmd 101](..\images\Linuxcmd_101_10.png "Linuxcmd 101")
+![Linuxcmd 101](../images/Linuxcmd_101_10.png "Linuxcmd 101")
 
 ```bash
 7z x decodeme2.zip -p"usemeaspassword"
@@ -222,6 +222,6 @@ change your directory into **decodeme2** folder we got the flag.txt but when we 
 
 with closer look on the flag we can notice that flag was rotated (Caesar Cipher) so we used [dcode](https://www.dcode.fr/caesar-cipher"dcode") site to decode it and finally we got the correct flag  
 
-![Linuxcmd 101](..\images\Linuxcmd_101_11.png "Linuxcmd 101")
+![Linuxcmd 101](../images/Linuxcmd_101_11.png "Linuxcmd 101")
 
 > flag{s1mple_linux_101}

@@ -11,7 +11,7 @@
 
 ### Step 1 : [download file](https://hubchallenges.s3-eu-west-1.amazonaws.com/Forensics/linux-chal.tar.gz)
 
-![Linuxcmd 101](..\images\Linuxcmd_101_1.png "Linuxcmd 101")
+![Linuxcmd 101](images/Linuxcmd_101_1.png "Linuxcmd 101")
 
 we get a .tar.gz file it's used for distribution of software/media or backup purposes.
 

@@ -18,6 +18,7 @@ a simple questions to test your general knowledge in different fields of cyber s
 * My box
 * User Name
 * Crime scene
+* CVE Number
 * one click
 * Distribution
 * security model

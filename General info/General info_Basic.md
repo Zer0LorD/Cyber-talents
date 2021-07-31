@@ -82,6 +82,14 @@ Process of analyzing and investing computer devices, on suspecting that such dev
 
 >forensics
 
+## CVE Number
+
+```text
+What is the CVE ID that is related to EternalBlue
+```
+
+>CVE-2017-0144
+
 ## one click
 
 ```text

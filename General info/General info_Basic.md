@@ -98,6 +98,14 @@ a type of malicious exploit of a website where unauthorized commands are submitt
 
 >CSRF
 
+## remove
+
+```text
+I need to remove a file called secret in my home directory. which command should i use 
+```
+
+>rm ~/secret
+
 ## Distribution
 
 ```text

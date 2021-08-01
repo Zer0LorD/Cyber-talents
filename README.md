@@ -20,6 +20,7 @@ a simple questions to test your general knowledge in different fields of cyber s
 * Crime scene
 * CVE Number
 * one click
+* remove
 * Distribution
 * security model
 

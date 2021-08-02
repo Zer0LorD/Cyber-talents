@@ -23,6 +23,7 @@ a simple questions to test your general knowledge in different fields of cyber s
 * remove
 * Distribution
 * security model
+* JPG Magic
 
 ### Easy
 

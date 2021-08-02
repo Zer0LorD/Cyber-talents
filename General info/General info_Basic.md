@@ -123,3 +123,13 @@ is a model designed to guide policies for information security within an organiz
 ```
 
 >CIA
+
+## JPG Magic
+
+```text
+You are doing some file analysis and you need to verify the magic byte of JPEG image
+
+Do you know the first 2 bytes of JPEG format 
+```
+
+>FF D8

@@ -81,7 +81,7 @@ from your knowledge about POST request we should put a body parameter so we adde
 
     ![The Restricted Sessions](../Images/The_Restricted_Sessions_8.png)
 
-1. we got the UserInfo from the app so we change the **UserInfo** cookie in our main page request to the name of the user, change the method to GET and see what will happen
+7. we got the UserInfo from the app so we change the **UserInfo** cookie in our main page request to the name of the user, change the method to GET and see what will happen
 
     ![The Restricted Sessions](../Images/The_Restricted_Sessions_9.png)
 and finally we got the flag

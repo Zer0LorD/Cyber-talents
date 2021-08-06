@@ -54,6 +54,7 @@ a simple questions to test your general knowledge in different fields of cyber s
 ### easy
 
 * who am i
+* Cheers
 
 ### medium
 
